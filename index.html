@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ульяна</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="/logo/logoMini.png" type="image/x-icon" />
+    <script src="app.js" type="module" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__profile">☰</div>
+    </header>
+    <main class="main">
+      <div class="main__search">
+        <img src="logo/logo-br.png" alt="logo" class="logo_ulyana" />
+        <div class="search__input">
+          <input
+            type="text"
+            class="search__input-string"
+            placeholder="Введите поисковый запрос или URL"
+          />
+          <img
+            src="/icon/search.png"
+            alt="search"
+            class="search__input-icon search-icon"
+          />
+          <img
+            src="/icon/gpt.png"
+            alt="gpt"
+            class="search__input-icon gpt-icon"
+          />
+        </div>
+        <div class="search__tabs">
+          <ul class="list"></ul>
+        </div>
+      </div>
+      <div class="compliment">
+        <div class="compliment__photo">
+          <img src="" alt="photo" class="compliment__photo-list" />
+        </div>
+        <div class="compliment__text">
+          <p class="text">
+            Ульяна, вы самая, <span class="text-list">красивая</span>!
+          </p>
+        </div>
+      </div>
+      <div class="tags__add hidden">
+        <div class="tags__add-modal">
+          <h3 class="tags__add-title">Добавить ярлык</h3>
+          <div class="tags__add-input-lable">
+            <p class="tags__add-input-lable-description">Название</p>
+            <input
+              type="text"
+              class="tags__add-input-lable-input input-name search__input-string"
+            />
+            <p class="tags__add-input-lable-description">URL</p>
+            <input
+              type="text"
+              class="tags__add-input-lable-input input-url search__input-string"
+            />
+          </div>
+          <div class="tags__add-button">
+            <button class="button__add button-cancel">Отмена</button>
+            <button class="button__add button-submit">Готово</button>
+          </div>
+        </div>
+      </div>
+      <div class="tags__add hidden">
+        <div class="tags__add-modal settings__menu">
+          <h3 class="settings__menu-title">Настройки</h3>
+          <div class="settings__menu-lable">
+            <div class="settings__menu-lable-style">
+              <p class="settings__menu-description">Стиль темы</p>
+              <div class="settings__menu-buttons-group">
+              <button class="settings__menu-button button-left">Светлая</button>
+              <button class="settings__menu-button button-right">Тёмная</button>
+              </div>
+            </div>
+             <div class="settings__menu-lable-style">
+              <p class="settings__menu-description">Поисковая система</p>
+              <div class="settings__menu-buttons-group">
+              <button class="settings__menu-button button-left settings__button-active">Google</button>
+              <button class="settings__menu-button button-right">Yandex</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
