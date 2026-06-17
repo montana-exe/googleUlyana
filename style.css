@@ -25,7 +25,6 @@ body {
   justify-content: end;
   font-size: 20px;
   user-select: none;
-  cursor: pointer;
 }
 
 .main {
@@ -77,7 +76,7 @@ body {
   transition: 0.3s;
 }
 
-.search__input-icon:hover{
+.search__input-icon:hover {
   transform: scale(1.05);
 }
 
@@ -102,7 +101,7 @@ body {
   transition: 0.4s;
 }
 
-.compliment__photo-list:hover{
+.compliment__photo-list:hover {
   transform: scale(1.1);
 }
 
@@ -119,7 +118,7 @@ body {
   transition: 0.3s;
 }
 
-.compliment__text:hover{
+.compliment__text:hover {
   transform: translateY(-10px);
 }
 
@@ -153,12 +152,12 @@ body {
   .logoTag {
     background-color: var(--color-body-dark);
   }
-  .buttonPoint{
-      opacity: 1;
+  .buttonPoint {
+    opacity: 1;
   }
 }
 
-.buttonPoint{
+.buttonPoint {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -171,11 +170,11 @@ body {
   opacity: 0;
 }
 
-.buttonPoint:hover{
+.buttonPoint:hover {
   background: var(--color-point-hover);
 }
 
-.buttonPointImg{
+.buttonPointImg {
   width: 14px;
 }
 
@@ -231,23 +230,23 @@ body {
   background: var(--color-body-dark);
 }
 
-.tags__add{
+.tags__add {
   display: none;
   position: fixed;
   inset: 0;
   z-index: 1000;
-  background: rgba(0,0,0,0.5);
+  background: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.tags__add.hidden{
+.tags__add.hidden {
   display: none;
 }
 
-.tags__add-modal{
+.tags__add-modal {
   padding: 30px;
   background-color: var(--color-body-dark);
   color: var(--color-light);
@@ -255,24 +254,24 @@ body {
   z-index: 1001;
 }
 
-.tags__add-title,.settings__menu-title{
-margin-top: 0;
+.tags__add-title,
+.settings__menu-title {
+  margin-top: 0;
 }
 
-
-.tags__add-input-lable-input{
+.tags__add-input-lable-input {
   height: 35px;
   border-bottom-left-radius: 0;
   border-top-right-radius: 10px;
 }
 
-.tags__add-button{
+.tags__add-button {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
 }
 
-.button__add{
+.button__add {
   padding: 10px 12px;
   border-radius: 20px;
   border: 1px solid var(--color-tag-menu);
@@ -282,34 +281,34 @@ margin-top: 0;
   transition: 0.3s;
 }
 
-.button__add:hover{
+.button__add:hover {
   transform: scale(1.05);
 }
 
-.button__validate{
+.button__validate {
   background-color: var(--color-light);
   color: var(--color-body-dark);
 }
 
-.settings__menu{
+.settings__menu {
   width: 600px;
   height: 400px;
 }
 
-.settings__menu-lable-style{
+.settings__menu-lable-style {
   display: flex;
   align-items: center;
 }
 
-.settings__menu-description{
+.settings__menu-description {
   padding-right: 15px;
 }
 
-.settings__menu-buttons-group{
+.settings__menu-buttons-group {
   display: flex;
 }
 
-.settings__menu-button{
+.settings__menu-button {
   padding: 6px 8px;
   align-self: flex-start;
   border: none;
@@ -318,21 +317,21 @@ margin-top: 0;
   transition: 0.3s;
 }
 
-.settings__menu-button:hover{
-background-color: var(--color-tag-hover);
+.settings__menu-button:hover {
+  background-color: var(--color-tag-hover);
 }
 
-.settings__button-active{
+.settings__button-active {
   transform: scale(0.95);
   background-color: var(--color-tag-hover);
 }
 
-.button-left{
+.button-left {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
-.button-right{
-   border-top-right-radius: 8px;
+.button-right {
+  border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
