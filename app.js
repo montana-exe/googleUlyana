@@ -22,7 +22,7 @@ let listTag = JSON.parse(localStorage.getItem("tags")) || [
 ];
 
 compliment.textContent = complimentList();
-photoList.src = `/photo/${Math.floor(Math.random() * 121)}.avif`;
+photoList.src = `photo/${Math.floor(Math.random() * 121)}.avif`;
 
 createTags();
 
@@ -81,10 +81,10 @@ function createTags() {
     buttonDelete.classList.add("button-delete");
     nameTag.textContent = forTag[i];
     if (forTag[i] === "Добавить ярлык") {
-      logoTagImg.src = "/icon/plus.png";
+      logoTagImg.src = "icon/plus.png";
     } else {
       logoTagImg.src = `${forTagUrl[i]}/favicon.ico`;
-      pointTagImg.src = "/icon/point.png";
+      pointTagImg.src = "icon/point.png";
       pointTag.append(pointTagImg);
       li.append(pointTag);
       buttonEdit.textContent = "Изменить ярлык";
